@@ -1,5 +1,5 @@
 <?php
-// Theme
+// Theme Wordpress-graphQL
 
 // Import theme settings
 //_________
