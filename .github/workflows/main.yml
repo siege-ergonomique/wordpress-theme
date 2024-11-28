@@ -16,4 +16,4 @@ jobs:
         server: siege-ergonomique.nexus-corp.fr
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: public_html/wp-content/themes/graphql/
+        server-dir: /wp-content/themes/graphql/
