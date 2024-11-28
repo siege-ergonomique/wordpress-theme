@@ -13,7 +13,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: nexus-corp.fr
+        server: siege-ergonomique.nexus-corp.fr
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: public_html/v2/wp-content/themes/graphql/
+        server-dir: public_html/wp-content/themes/graphql/
